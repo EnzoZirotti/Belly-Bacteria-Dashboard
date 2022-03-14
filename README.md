@@ -7,10 +7,15 @@ Roza has a partially completed dashboard that she needs to finish. She has a com
   This new assignment consists of four technical analysis deliverables. You will submit the following:
 
   - Deliverable 1: Create a Horizontal Bar Chart
+
+
+
 ![Screenshot](bar_chart.PNG)
 
 
   - Deliverable 2: Create a Bubble Chart
+
+
 ![Screenshot](bubble.PNG)
 
   - Deliverable 3: Create a Gauge Chart
