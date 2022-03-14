@@ -76,7 +76,8 @@ function buildCharts(sample) {
       hoverinfo: sampleOtuLabel,
       type: "bar",
       orientation: "h",
-      backgroundColor: "rgb(192, 189, 189)"
+      backgroundColor: "rgb(191, 0, 255)",
+      color : "rgb(191, 0, 255)"
     };
     // 9. Create the layout for the bar chart.
     var barLayout = {
@@ -103,7 +104,7 @@ function buildCharts(sample) {
       text: sampleOtuLabel,
       hoverinfo: "x+y+text",
       mode: "markers",
-      marker: {size: sampleValue, color: sampleOtuID, colorscale: "Earth"}
+      marker: {size: sampleValue, color:sampleOtuID, colorscale: "Earth"}
     };
     // Create the layout for the bubble chart.
     var bubbleLayout = {
@@ -146,8 +147,8 @@ function buildCharts(sample) {
           {range: [0,2], color: "red"},
           {range: [2,4], color: "orange"},
           {range: [4,6], color: "yellow"},
-          {range: [6,8], color: "yellowgreen"},
-          {range: [8,10], color: "green"}
+          {range: [6,8], color: "lightgreen"},
+          {range: [8,10], color: "darkgreen"}
         ],
       }
     };   
